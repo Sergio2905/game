@@ -108,13 +108,10 @@ body {
   height: 100%;
   position: relative;
   overflow: hidden;
-}
-
-.wrapper.active {
   scrollbar-width: none;
 }
 
-.wrapper.active::-webkit-scrollbar {
+.wrapper::-webkit-scrollbar {
   width: 0;
   height: 0;
 }
@@ -125,7 +122,6 @@ body {
   left: 0;
   width: 200%;
   aspect-ratio: 3072/1681;
-  transition: all 0.5s ease;
 }
 
 .area {
@@ -134,7 +130,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
-  height: 50%;
+  aspect-ratio: 3072/1681;
   transition: all 0.5s ease;
 }
 
