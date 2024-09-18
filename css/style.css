@@ -111,7 +111,6 @@ body {
 }
 
 .wrapper.active {
-  overflow: auto;
   scrollbar-width: none;
 }
 
